@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.filtera {
+    filter: invert(100);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.jump {
+    transform-origin: 50% 50%;
+    animation: jump 0.5s linear alternate infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    40% {
+        transform: translateY(0, 30%, 0);
+    }
+    100% {
+        transform: translate3d(0, 30%, 0);
+    }
+}
